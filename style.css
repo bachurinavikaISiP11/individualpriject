@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+a{
+    text-decoration: none;
+   color: black;
+   margin-left: 90px;
+   font-size: 40px;
+}
+body{
+   background-color: #FFCECA;
+}
+#cover{
+    height: 785px;
+    display: flex;
+    align-items: center;
+    background-image: url(img/Group\ 7.png);
+   background-size: cover;
+}
+a,h1,h2,p,button,input{
+    font-family: "Neucha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    font-size: 55px;
+}
+h2{
+    font-size: 50px;
+   
+}
+button{
+    font-size: 40px;
+    width: 360px;
+    height: 60px;
+    background-color: #FF88BD;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.about_us_content{
+    display: flex;
+    font-size: 25px;
+}
+.card{
+    width: 364px;
+    
+}
+.products-cards{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    font-size: 24px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+#form{
+    display: flex;
+    height: 600px;
+background-color: #F0AFAC;
+align-items: center;
+justify-content: center;
+background-position: center;
+}
+form{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+input{
+    width: 355px;
+    height: 60px;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: #E39592;
+    font-size: 30px;
+    color: #7E0000;
+}
+
+
+h2{
+    justify-content: center;
+    display: flex;
+}
+
+::placeholder{
+    color: #7E0000;
+}
